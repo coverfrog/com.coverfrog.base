@@ -2,7 +2,7 @@
   "name": "com.coverfrog.namo",
   "version": "1.0.0",
   "displayName": "Cover Frog Custom Package",
-  "description": "한글 가능 여부 확인.",
+  "description": "Hello",
   "unity": "2021.3",
   "dependencies": {
   }
