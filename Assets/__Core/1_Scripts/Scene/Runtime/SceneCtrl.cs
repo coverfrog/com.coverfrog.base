@@ -11,7 +11,7 @@ namespace Cf.Scene
         [Title("Text")]
         [SerializeField] private string codeName;
         [SerializeField] [TextArea] private string description;
-
+        
         [Title("Event")] 
         [SerializeField] private UnityEvent onLoadComplete;
         [SerializeField] private UnityEvent onSceneStart;

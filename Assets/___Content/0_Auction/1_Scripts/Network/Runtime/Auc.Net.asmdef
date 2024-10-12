@@ -2,7 +2,8 @@
     "name": "Auc.Net",
     "rootNamespace": "Auc.Net",
     "references": [
-        "GUID:d82a60a9d3e5d17459cf1b379f00c77c"
+        "GUID:d82a60a9d3e5d17459cf1b379f00c77c",
+        "GUID:1491147abca9d7d4bb7105af628b223e"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
