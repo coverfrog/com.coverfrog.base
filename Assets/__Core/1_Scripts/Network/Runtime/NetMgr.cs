@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace Cf.Player
+namespace Cf.Net
 {
-    public class PlayerCtrl : MonoBehaviour
+    public abstract class NetMgr : MonoBehaviour
     {
         
     }

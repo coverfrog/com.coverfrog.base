@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Cf.Player
+namespace Auc.Net
 {
-    public class PlayerCtrl : MonoBehaviour
+    public class NetMgr : Cf.Net.NetMgr
     {
-        
+       
     }
 }

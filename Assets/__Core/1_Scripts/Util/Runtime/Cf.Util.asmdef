@@ -1,6 +1,6 @@
 {
-    "name": "Cf.Scene",
-    "rootNamespace": "Cf.Scene",
+    "name": "Cf.Util",
+    "rootNamespace": "Cf.Util",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,6 +1,6 @@
 {
-    "name": "Cf.Scene",
-    "rootNamespace": "Cf.Scene",
+    "name": "Auc.Net.Editor",
+    "rootNamespace": "Auc.Net.Editor",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

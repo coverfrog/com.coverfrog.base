@@ -1,6 +1,6 @@
 {
-    "name": "Cf.Scene",
-    "rootNamespace": "Cf.Scene",
+    "name": "Cf.Player",
+    "rootNamespace": "Cf.Player",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

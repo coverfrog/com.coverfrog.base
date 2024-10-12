@@ -1,7 +1,9 @@
 {
-    "name": "Cf.Scene",
-    "rootNamespace": "Cf.Scene",
-    "references": [],
+    "name": "Auc.Net",
+    "rootNamespace": "Auc.Net",
+    "references": [
+        "GUID:d82a60a9d3e5d17459cf1b379f00c77c"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
