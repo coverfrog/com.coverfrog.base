@@ -1,0 +1,46 @@
+{
+    "name": "Auc.Player",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f8ef98b8-1e46-4aa8-a3c6-2d6d091a4927",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "fbd46848-02bf-480e-bff5-a9865cdf5938",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c2bccf40-a4ae-4e96-960a-b4a5bc2f1f09",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Skill",
+            "id": "f26e4719-bd40-430e-88b3-63973d39a0cf",
+            "actions": [],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": []
+        }
+    ]
+}
