@@ -29,7 +29,7 @@ namespace Auc.Net
 
         private void MoveOnPerformed(InputAction.CallbackContext context)
         {
-            var point = context.ReadValue<float>();
+            var point = context.ReadValue<Vector2>();
         
             Debug.Log(point);
         }
