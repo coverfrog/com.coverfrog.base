@@ -1,20 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using Cf.Net;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using Auc.InputAct;
-    
-namespace Auc.Net
+using Sirenix.OdinInspector;
+using UnityEngine.Events;
+using UnityEngine.InputSystem;
+
+namespace Auc.Player
 {
-    public class NetPlayer : Cf.Net.NetPlayer
+    public class PlayerCtrl : Cf.Player.PlayerCtrl
     {
-        private bool _isPressed;
+        [Title("Values")] 
+        [ShowInInspector] [ReadOnly] private PlayerValues _playerValues;
         
         private AucInputModule _module;
-    
+
+        #region > Unity 
+
         private void Awake()
         {
+            _playerValues = new PlayerValues();
             _module = new AucInputModule();
             _module.Player.Enable();
         }
@@ -29,9 +35,15 @@ namespace Auc.Net
             _module.Player.Move.performed -= MoveOnPerformed;
         }
 
+        #endregion
+
+        #region > Event - Input
+
         private void MoveOnPerformed(InputAction.CallbackContext context)
         {
-            _isPressed = context.ReadValue<float>() > 0;
+            _playerValues.IsMovePressed = context.ReadValue<float>() > 0;
         }
+        
+        #endregion
     }
 }
