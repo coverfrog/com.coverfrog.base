@@ -1,6 +1,6 @@
 {
-    "name": "Lab",
-    "rootNamespace": "Lab",
+    "name": "Cf.Physics",
+    "rootNamespace": "Cf.Physics",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
