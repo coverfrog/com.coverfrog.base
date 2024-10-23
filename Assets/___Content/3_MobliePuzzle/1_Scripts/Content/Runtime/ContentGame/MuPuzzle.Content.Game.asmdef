@@ -1,0 +1,16 @@
+{
+    "name": "MuPuzzle.Content.Game",
+    "rootNamespace": "MuPuzzle.Content.Game",
+    "references": [
+        "MuPuzzle.Content"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
