@@ -1,0 +1,8 @@
+Debug App Id
+ca-app-pub-3940256099942544-3347511713
+
+Release App Id
+ca-app-pub-3463254774821238~4784189945
+
+Full Ad Id
+ca-app-pub-3463254774821238/3410434492
