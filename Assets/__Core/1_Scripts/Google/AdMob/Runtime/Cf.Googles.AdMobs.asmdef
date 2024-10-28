@@ -1,9 +1,7 @@
 {
     "name": "Cf.Googles.AdMobs",
     "rootNamespace": "Cf.Googles.AdMobs",
-    "references": [
-        ""
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
