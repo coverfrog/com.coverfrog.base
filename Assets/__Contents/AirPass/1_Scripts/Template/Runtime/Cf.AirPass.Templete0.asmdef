@@ -1,0 +1,16 @@
+{
+    "name": "Cf.AirPass.Templete0",
+    "rootNamespace": "Cf.AirPass.Templete0",
+    "references": [
+        "GUID:80a68e3faca1a0f49a7348aead11461b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
